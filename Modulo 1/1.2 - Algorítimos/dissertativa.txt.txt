@@ -1,4 +1,0 @@
-Defina o número que irá multiplicar o 9. 
-Subtraia o número por 1 pois ele será o primeiro dígito do resultado. 
-Subtraia 10 pelo número pois ele será o segudno número.
-Junte o primeiro dígito e o segundo dígito e você terá a resposta.
