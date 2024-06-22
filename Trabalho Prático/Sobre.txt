@@ -1,0 +1,35 @@
+Olá, tudo bem?
+
+Introdução:
+Esse trabalho nada mais é do que um sistema de login/DataBase de uma equipe de formuala 1 chamada Phoenix.
+Essa equipe tem como principais associados:
+Chefe de Equipe = Tem como finalidade a gestão completa do time e dos dados, sendo a peça principal para todo o funcionamento e sucesso da equipe na mairo modalidade automobilistica no mundo.
+Engenheiros e Pilotos = As peças que dinamicamente fazem tudo acontecer, tendo a leitura e edição de dados para que possamos brilhar durante todos os finais de semanas.
+Patrocinadores e Imprenas = O que seria de uma equipe de F1 sem uma visibilidade e investimento, para que isso seja mantido é fundamental uma clara comunicação com eles, por isso o acesso aos dados apenas para leitura.
+
+Implementação:
+ALL CODE:
+Todo codigo foi desenvolvido com o mesmo estilo e padrão tanto para a parte do Centro de Login e Centro de Dados, todas envolvidas por um HUB que tambem segue a mesma logica.
+Diante disso, vale a pena explicar apenas uma parte, ja que será a mesma coisa em ambas as partes.
+
+LOGIN SYSTEM:
+- O Login System conta com um ID predefinido para cada User, juntamente com o seu nome, sua função e suas permissões.
+- O ID serve para uma maior gestão e controle, já que é mais fácil gerir um codigo de 5 dígitos que um nome.
+- Vale lembrar que durante a etapa de Login, temos o Confirmation Code, que serve como uma etapa a mais de segurança na hora de logar no sistema, e um mundo onde cada informação é muito importante para o desenvolvimento da equipe.
+- Esse CC é sempre aleatorio e gerado automaticamente durante a inicialização do sistema, evitando fruades.
+- Depois disso o Login é efetuado com sucesso
+
+CRUD:
+- Chefe de Equipe tem o CRUD completo, podendo fazer tudo.
+- Os Engenheiros e Pilotos tem apenas o RU, podendo editar e ver.
+- Já a Impremsa e Patrocinadores apenas o R, podendo apenas ler.
+
+CODE INFORMATION:
+- O codigo foi inteiramente desenvolvido com funções, ja que para mim é algo mais fácil e rápido de gerir durante uma longa etapa de desenvolvimento.
+- Muitas vezes escolhir usar IF, ELIF, ELSE e etc por se tratar de elementos nos quais eu tenho uma maior facilidade de utilização e entendimento.
+- O arquivo csv foi escolhido para que eu me desafiasse a sair da bolha de conforto e por em extrema prática tudo que aprendi e melhorei.
+- Usuarios.txt tem info sobre os usuarios.
+
+Conclusão:
+Foi um grande desafio, muitas horas de spotify escutados kkk e quebrando a cabeça para desenvolver algo melhor, agradeço pela oportunidade de ter feito isso... VLW
+- O que poderia ter sido melhorado? muitas coisas... claro, como uma maior facilidade da permissões, sem a necessidade de vocês precisarem escrever a função/cargo quase toda hora... Infelizmente não consegui AGORA... Mas no futuro sim!

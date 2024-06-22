@@ -1,0 +1,19 @@
+usuarios = {
+    "001CF": {"nome": "Chefe de Equipe", "funcao": "chefe", "permissoes": ["Adicionar", "Editar", "Ler", "Deletar"]},
+    "002EN": {"nome": "Engenheiro", "funcao": "engenheiro", "permissoes": ["Editar", "Ler"]},
+    "003PI": {"nome": "Piloto", "funcao": "piloto", "permissoes": ["Editar", "Ler"]},
+    "004IM": {"nome": "Imprensa", "funcao": "imprensa", "permissoes": ["Ler"]},
+    "005PA": {"nome": "Patrocinador", "funcao": "patrocinador", "permissoes": ["Ler"]},
+    
+    # Visitantes serão adicionados dinamicamente pelos engenheiros e chefes de equipe
+}
+
+Chefe de Equipe = 001CF, Chefe de Equipe, (Random confirmation code)
+Engenheiro = 002EN, Engenheiro, (Random confirmation code)
+Piloto = 003PI, Piloto, (Random confirmation code)
+Imprensa = 004IM, Imprensa, (Random confirmation code)
+Patrocinador = 005PA, Patrocinador, (Random confirmation code)
+
+Visitantes = N/A, N/A, N/A (Definido pelo chefe de equipe)
+OSB: Visinates não serão logaveis e não terão acesso a nada, apenas estão presentes em um meio físico.
+
